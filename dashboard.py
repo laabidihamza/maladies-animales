@@ -265,7 +265,7 @@ def main():
         st.sidebar.info("💡 Veuillez charger un fichier CSV pour commencer l'analyse")
         # Essayer de charger un fichier par défaut
         try:
-            df = load_data('dataset_maladies_animales_final.csv')
+            df = load_data('dataset_maladies_animales_selenium_final.csv')
             st.sidebar.success("✅ Fichier par défaut chargé")
         except:
             st.warning("⚠️ Aucun fichier chargé. Veuillez uploader un fichier CSV dans la barre latérale.")
