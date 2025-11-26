@@ -1,2 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Selenium / WebDriver
+chromedriver
+geckodriver
+*.log
+
+# Data files (optional: keep if you don't want to commit datasets)
+data/output_*.csv
+data/*.csv
+!data/input_urls.csv  # Keep the input template if needed
+
+# Ollama (models are local, never commit)
+.ollama/
+
+# Environment variables
 .env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
 .env.exemple
