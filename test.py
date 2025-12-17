@@ -158,7 +158,7 @@ def test_input_file():
     """Vérifie si le fichier d'entrée existe"""
     print("🔍 Test du fichier d'entrée...")
     
-    input_file = Path(__file__).parent / "data" / "input" / "urls.csv"
+    input_file = Path(__file__).parent / "data" / "input_urls.csv"
     
     if input_file.exists():
         import pandas as pd
@@ -217,3 +217,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+    
